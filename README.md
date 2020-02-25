@@ -28,7 +28,7 @@ Dockerfile
 docker build -t username/app-name:tag .
 
 Run it!
-docker run -p 49160:8080 -d username/app-name:tag
+docker run -p 4000:4000 -d username/app-name:tag
 
 
 -p specifies port mapping
